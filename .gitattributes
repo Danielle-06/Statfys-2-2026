@@ -1,0 +1,11 @@
+##Geen annoying exection count diffs
+*.ipynb filter=nbstripout
+*.zpln filter=nbstripout
+*.ipynb diff=ipynb
+
+
+##Force LF for notebooks
+*.ipynb text eol=lf
+*.py text eol=lf
+
+* text=auto
